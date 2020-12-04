@@ -1,0 +1,95 @@
+
+.body {
+  margin-top: 2rem;
+}
+
+.entry {
+  margin-bottom: 2rem;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+input {
+  border: none;
+  padding: 0.5rem 0.1rem;
+  width: 100%;
+  border-radius: 2px;
+  border-bottom: 1px solid rgb(194, 14, 14);
+  transition: all 0.5s;
+}
+
+input:focus {
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  background: #34f72a;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.conversations {
+  margin-top: 1rem;
+}
+
+.conversation {
+  display: flex;
+  justify-content: space-between;
+  align-items: bottom;
+  margin-bottom: 1rem;
+}
+
+.enter {
+  background: #f7c52a;
+  padding: 0.25rem 1rem;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+* {
+  font-family: Arial;
+  box-sizing: border-box;
+  color: rgb(14, 2, 2);
+}
+
+body {
+  font-size: 16px;
+  background-color: rgb(177, 236, 255);
+}
+
+.box {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  padding: 1rem;
+  position: relative;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 25vw;
+  transform: translate(-50%, -50%);
+}
+
+.boxHead {
+  background: #34f72a;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  text-transform: uppercase;
+  transform: skewY(-4deg);
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: -1rem;
+  left: -0.75rem;
+}
